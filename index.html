@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+  <link href="css/styles.css" rel="stylesheet" type="text/css">
+  <script src="js/jquery-3.5.1.js"></script>
+  </script>
+  <script src="js/scripts.js"></script>
+  <title>Animal Wiki</title>
+</head>
+
+<body>
+  <div class="container">
+    <h1>Welcome to the wide world of animals!</h1>
+    <p>Click on an animal to learn more!</p>
+    <div class="form-check">
+      <input type="radio" class="form-check-input" name="pageradio" value="skunk">
+      <label for="pageradio" class="form-check-label">Spotted Skunk</label>
+    </div>
+    <div class="form-check">
+      <input type="radio" class="form-check-input" name="pageradio" value="honeybadger">
+      <label for="pageradio" class="form-check-label">Honeybadger</label>
+    </div>
+    <div class="form-check">
+      <input type="radio" class="form-check-input" name="pageradio" value="civet">
+      <label for="pageradio" class="form-check-label">Palm Civet</label>
+    </div>
+
+    </form>
+    <div class="row">
+      <div class="col-sm">
+        <div class="card" id="spotted-skunk">
+          <img class="card-img-top" src="img/skunk.jpg" alt="An image of a spotted skunk." id="skunk">
+          <div class="card-body">
+            <h5 class="card-title">Spotted Skunk</h5>
+            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm">
+        <div class="card" id="honeybadger">
+          <img src="img/honey.jpg" id="honey" alt="An image of a honeybadger.">
+          <div class="card-body">
+            <h5 class="card-title">Honeybadger</h5>
+            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm">
+        <div class="card" id="palm-civet">
+          <img src="img/civet.jpg" alt="An image of a civet." class="card-img-top" id="civet">
+          <div class="card-body">
+            <h5 class="card-title">Palm Civet</h5>
+            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+</body>
+
+</html>

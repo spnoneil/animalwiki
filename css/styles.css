@@ -1,0 +1,18 @@
+#skunk {
+  max-width: 30%;
+  max-height: auto;
+}
+
+#honey {
+  max-width: 45%;
+  max-height: auto;
+}
+
+#civet {
+  max-width: 70%;
+  max-height: auto;
+}
+
+.card {
+  display: none;
+}
